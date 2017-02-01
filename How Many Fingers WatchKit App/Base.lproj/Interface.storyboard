@@ -14,16 +14,28 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HowManyFingers_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="A0g-ru-REK"/>
+                        <slider width="1" alignment="left" value="0.59999999999999998" steps="5" id="A0g-ru-REK">
+                            <connections>
+                                <action selector="guessUpdated:" destination="AgC-eL-Hgc" id="We1-KY-io5"/>
+                            </connections>
+                        </slider>
                         <label alignment="center" text="Your Guess: 3" textAlignment="center" id="AkN-uN-J8L">
                             <fontDescription key="font" type="system" pointSize="16"/>
                         </label>
-                        <button width="1" alignment="left" title="Button" id="nRM-Ds-dkj">
+                        <button width="1" alignment="left" title="Guess!" id="nRM-Ds-dkj">
                             <color key="backgroundColor" red="0.051375895230000003" green="0.63483441870000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="guessPress" destination="AgC-eL-Hgc" id="fE5-yk-0XP"/>
+                            </connections>
                         </button>
                         <label alignment="center" verticalAlignment="bottom" text="Label" textAlignment="center" id="oqc-B2-wtq"/>
                     </items>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="guess" destination="A0g-ru-REK" id="08b-cP-xbD"/>
+                        <outlet property="guessLabel" destination="AkN-uN-J8L" id="gAW-gx-5LS"/>
+                        <outlet property="resultLabel" destination="oqc-B2-wtq" id="LWX-Lt-yyO"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
