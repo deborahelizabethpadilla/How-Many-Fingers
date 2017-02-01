@@ -28,7 +28,7 @@
                                 <action selector="guessPress" destination="AgC-eL-Hgc" id="fE5-yk-0XP"/>
                             </connections>
                         </button>
-                        <label alignment="center" verticalAlignment="bottom" text="Label" textAlignment="center" id="oqc-B2-wtq"/>
+                        <label alignment="center" verticalAlignment="bottom" textAlignment="center" id="oqc-B2-wtq"/>
                     </items>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <connections>
