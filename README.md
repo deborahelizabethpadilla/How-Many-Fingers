@@ -10,6 +10,7 @@ This watchOS application is a game to guess how many fingers.
 **Technologies Used In Application:**
 * WatchKit
 * Arc4Random
+* Swift
 
 **Closing:**
 
