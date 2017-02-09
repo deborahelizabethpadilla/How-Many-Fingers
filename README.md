@@ -1,5 +1,7 @@
 # How-Many-Fingers
 
+**Summary:**
+
 This watchOS application is a game to guess how many fingers.
 
 **The application offers the following features:**
