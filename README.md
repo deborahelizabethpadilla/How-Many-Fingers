@@ -1,4 +1,4 @@
-# How-Many-Fingers
+# How Many Fingers
 
 **Summary:**
 
